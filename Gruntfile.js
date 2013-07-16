@@ -24,8 +24,11 @@ module.exports = function(grunt) {
         src: ['lib/**/*.js']
       },
       test: {
+        options: {
+          jshintrc: '.jshintrc-test'
+        },
         src: ['test/**/*.js']
-      },
+      }
     },
     watch: {
       gruntfile: {
