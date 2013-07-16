@@ -1,6 +1,6 @@
 # elephants [![Build Status](https://secure.travis-ci.org/jackcviers/elephants.png?branch=master)](http://travis-ci.org/jackcviers/elephants)
 
-A monadic/ADT library for javascript.
+A monadic/ADT library for javascript. This library is an attempt to provide algebraic data types compliant with the [Fantasy-land](https://github.com/puffnfresh/fantasy-land) algebraic javascript specification by @puffnfresh.
 
 ## Getting Started
 Install the module with: `npm install elephants`
@@ -11,6 +11,7 @@ elephants.awesome(); // "awesome"
 ```
 
 ## Documentation
+
 _(Coming soon)_
 
 ## Examples
@@ -24,4 +25,4 @@ _(Nothing yet)_
 
 ## License
 Copyright (c) 2013 Jack Viers  
-Licensed under the APACHE license.
+Licensed under the APACHE-2.0 license.
