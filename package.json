@@ -1,0 +1,37 @@
+{
+  "name": "elephants",
+  "description": "A monadic/ADT library for javascript.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jackcviers/elephants",
+  "author": {
+    "name": "Jack Viers",
+    "email": "jackcviers@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jackcviers/elephants.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jackcviers/elephants/issues"
+  },
+  "licenses": [
+    {
+      "type": "APACHE",
+      "url": "https://github.com/jackcviers/elephants/blob/master/LICENSE-APACHE"
+    }
+  ],
+  "main": "lib/elephants",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
